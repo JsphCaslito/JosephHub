@@ -34,16 +34,48 @@
 		<section id="page">
 			<main>
 			<header> <h1 class="head"> Welcome to my website where I talk about how overpopulated the world is, how it's a problem and how to solve it. </h1> </header>
+			<p>.</p><br>
+			<p>.</p><br>
+
 			<h1 class="hehea">
-				Where the buttons above leads you:
+			
+				Where the navigation bar above leads you:
 			</h1>
 	
-			<center>
+			<center><div class="yoo">
 				<h2>Logo: Back Here </h2>
 				<h2>Overpopulation: Overpopulation around the world </h2>
 				<h2>Essay: Essay about Overpopulation </h2>
 				<h2>Author: About the Author </h2>
-			</center>
+			</center></div>
+			<div id="footer" style="height: 100px; margin-top: 15px;">
+				<hr>
+				<p>
+					Copyright &copy; 2021 Joseph Angello Castillo
+				</p>
+			</div>
+			</section>
+
+
+	<script>
+		window.onscroll = scrollShowNav;
+			function scrollShowNav() {
+			if (
+			document.body.scrollTop > 20 ||
+			document.documentElement.scrollTop > 20
+			)
+			{
+			document.getElementsByTagName("nav")[0].style.padding = "10px 10px 0px";
+			document.querySelector(".company-logo").style.fontSize = "20px";
+			} else {
+			document.getElementsByTagName("nav")[0].style.padding = "40px 50px 0px";
+			document.querySelector(".company-logo").style.fontSize = "50px";
+			}
+			}		
+	</script>	
+	
+</body>
+</html>
 
 			
 				
